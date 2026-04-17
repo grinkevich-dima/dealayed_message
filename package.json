@@ -1,0 +1,31 @@
+{
+  "name": "starter-b24ui-vue",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src",
+    "typecheck": "vue-tsc -p ./tsconfig.app.json"
+  },
+  "dependencies": {
+    "@bitrix24/b24icons-vue": "^2.0.7",
+    "@bitrix24/b24ui-nuxt": "^2.5.3",
+    "@internationalized/date": "^3.10.0",
+    "tailwindcss": "^4.2.2",
+    "vue": "^3.5.30",
+    "vue-router": "^5.0.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.5",
+    "eslint": "^10.1.0",
+    "eslint-plugin-vue": "^10.8.0",
+    "typescript": "^6.0.2",
+    "typescript-eslint": "^8.57.2",
+    "vite": "^8.0.2",
+    "vite-plugin-singlefile": "^2.3.2",
+    "vue-tsc": "^3.2.6"
+  },
+  "packageManager": "pnpm@10.32.1"
+}
